@@ -1,59 +1,12 @@
 Rails.application.routes.draw do
-  get 'foods/new'
 
-  get 'foods/create'
+  resources :foods
 
-  get 'foods/update'
+  resources :contents
 
-  get 'foods/edit'
+  resources :events
 
-  get 'foods/destroy'
-
-  get 'foods/index'
-
-  get 'foods/show'
-
-  get 'contents/new'
-
-  get 'contents/create'
-
-  get 'contents/update'
-
-  get 'contents/edit'
-
-  get 'contents/destroy'
-
-  get 'contents/index'
-
-  get 'contents/show'
-
-  get 'events/new'
-
-  get 'events/create'
-
-  get 'events/update'
-
-  get 'events/edit'
-
-  get 'events/destroy'
-
-  get 'events/index'
-
-  get 'events/show'
-
-  get 'cocktails/new'
-
-  get 'cocktails/create'
-
-  get 'cocktails/update'
-
-  get 'cocktails/edit'
-
-  get 'cocktails/destroy'
-
-  get 'cocktails/index'
-
-  get 'cocktails/show'
+  resources :cocktails
 
   get 'pages/contact'
 
