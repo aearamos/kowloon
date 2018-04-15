@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  get 'foods/new'
+
+  get 'foods/create'
+
+  get 'foods/update'
+
+  get 'foods/edit'
+
+  get 'foods/destroy'
+
+  get 'foods/index'
+
+  get 'foods/show'
+
   get 'contents/new'
 
   get 'contents/create'
