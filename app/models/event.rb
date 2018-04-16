@@ -5,4 +5,6 @@ class Event < ApplicationRecord
 	validates :initime, presence: :true
 	validates :endtime, presence: :true
 	validates :date, presence: :true
+
+  mount_uploader :photo, PhotoUploader
 end
